@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <h1>Ruth's Memory Game</h1>
+
+    <h3>Score: <span id="result"></span></h3>
+    <div class="grid"></div>
+    <br />
+
+    <footer class="flex-footer">
+      <div id="seconds-counter">
+        <br />
+      </div>
+      <button class="button" type="button" onclick="clearInterval(cancel)">
+        Stop Timer
+      </button>
+
+      <button onclick="myButton()">Reset</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
